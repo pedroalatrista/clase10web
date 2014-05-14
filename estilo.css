@@ -1,0 +1,45 @@
+.contenedor{
+	width:900px;
+	margin: 0 auto;
+}
+.cabecera{
+	background: blue;
+}
+.cuerpo{
+	width: 560px;
+	background: orange;
+	height: 300px;
+	float: left;
+	padding: 20px;
+}
+.menu li:hover {
+	background: blue;
+}
+.sidebar{
+	width: 300px;
+	background: purple;
+	height:300px ;
+	float: left;
+}	
+.pie{
+	height: 50px;
+	background: #000;
+}
+.menu ul {
+	padding: 0;
+}
+.menu li {
+	display: block;
+	width: 179px;
+	height: 20px;
+	background: red;
+	float: left;
+	text-align: center;
+	font-weight: bold;
+	padding: 7px 0;
+	border-left: 1px solid #fff;
+}
+.menu li a {
+	text-decoration: none;
+	color: white;
+}
